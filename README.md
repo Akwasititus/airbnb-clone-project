@@ -44,3 +44,50 @@ Here's a breakdown of the technologies used in the project:
 - Hosting and Deployment: Cloud platforms like AWS or Google Cloud can be used for hosting and deploying the application, ensuring scalability and reliability.
 - Security Measures: Technologies like OAuth or JWT can be used for authentication and authorization, protecting user data and ensuring secure access to the application.
 
+
+
+
+
+
+Database Design
+
+The database design for the AirBnB clone project includes the following key entities:
+
+Entities and Fields
+- Users
+    - id: unique identifier for the user
+    - email: user's email address
+    - password: user's password (hashed for security)
+    - name: user's full name
+- Properties
+    - id: unique identifier for the property
+    - title: property title
+    - description: property description
+    - price: nightly price for the property
+    - location: property location
+- Bookings
+    - id: unique identifier for the booking
+    - property_id: foreign key referencing the Properties entity
+    - user_id: foreign key referencing the Users entity
+    - check_in: check-in date
+    - check_out: check-out date
+- Reviews
+    - id: unique identifier for the review
+    - property_id: foreign key referencing the Properties entity
+    - user_id: foreign key referencing the Users entity
+    - rating: review rating (e.g., 1-5 stars)
+    - comment: review comment
+- Payments
+    - id: unique identifier for the payment
+    - booking_id: foreign key referencing the Bookings entity
+    - payment_method: payment method used (e.g., credit card, PayPal)
+    - amount: payment amount
+
+Entity Relationships
+- A User can have multiple Properties (one-to-many).
+- A Property belongs to one User (many-to-one).
+- A User can make multiple Bookings (one-to-many).
+- A Booking belongs to one User and one Property (many-to-one).
+- A Property can have multiple Bookings (one-to-many).
+- A Review belongs to one User and one Property (many-to-one).
+- A Payment belongs to one Booking (many-to-one).
