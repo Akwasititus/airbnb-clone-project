@@ -116,3 +116,24 @@ Why Security is Crucial
 - Preventing Attacks: Rate limiting, input validation, and data encryption help prevent attacks such as brute-force attacks, SQL injection, and XSS attacks, which can compromise user data and system integrity.
 
 By implementing these security measures, the AirBnB clone project can ensure the protection of user data, secure payments, and prevent unauthorized access, providing a safe and trustworthy experience for users.
+
+
+
+CI/CD Pipeline
+
+A CI/CD pipeline automates the build, test, and deployment process for your project, ensuring that changes are delivered quickly and reliably. CI stands for Continuous Integration, which involves merging code changes into a central repository frequently, while CD stands for Continuous Deployment or Continuous Delivery, which automates the deployment of these changes to production or staging environments.
+
+Why CI/CD Pipelines are Important
+
+- Faster Time-to-Market: Automate testing and deployment to reduce manual errors and increase efficiency.
+- Improved Code Quality: Run automated tests to catch bugs and ensure code quality.
+- Increased Collaboration: Encourage collaboration among team members by providing a centralized platform for code integration and deployment.
+
+Tools for CI/CD Pipelines
+
+- GitHub Actions: Automate workflows, build, test, and deploy code.
+- Docker: Containerize applications for consistent and reliable deployments.
+- Jenkins: Automate builds, tests, and deployments with a highly customizable platform.
+- CircleCI: Automate builds, tests, and deployments with a scalable and secure platform.
+
+By implementing a CI/CD pipeline, you can streamline your development process, improve code quality, and reduce the risk of errors in production.
