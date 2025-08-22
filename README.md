@@ -30,3 +30,16 @@ Team Roles
 - DevOps Engineer: Ensures the smooth operation of the development and production environments. They'll handle deployment, monitoring, and maintenance.
 - Project Manager: Oversees the project's progress, timeline, and resources. They'll facilitate communication among team members and stakeholders.
 - UX/UI Designer: Creates user-centered designs, wireframes, and prototypes. They'll craft an intuitive and engaging user experience.
+
+
+
+Technology Stack
+
+Here's a breakdown of the technologies used in the project:
+
+- Backend Framework: Django: A high-level web framework for building robust and scalable RESTful APIs. It provides an excellent foundation for handling complex backend logic and database integration.
+- Database Management: PostgreSQL: A powerful, open-source relational database management system. It's used for storing and managing data, ensuring data consistency and integrity.
+- API Framework: GraphQL: A query language for APIs that allows for flexible and efficient data retrieval. It enables clients to specify exactly what data they need, reducing overhead and improving performance.
+- Frontend Framework: A JavaScript framework like React or Angular can be used for building a dynamic and responsive user interface.
+- Hosting and Deployment: Cloud platforms like AWS or Google Cloud can be used for hosting and deploying the application, ensuring scalability and reliability.
+- Security Measures: Technologies like OAuth or JWT can be used for authentication and authorization, protecting user data and ensuring secure access to the application.
