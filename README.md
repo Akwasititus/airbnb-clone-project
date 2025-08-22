@@ -43,3 +43,4 @@ Here's a breakdown of the technologies used in the project:
 - Frontend Framework: A JavaScript framework like React or Angular can be used for building a dynamic and responsive user interface.
 - Hosting and Deployment: Cloud platforms like AWS or Google Cloud can be used for hosting and deploying the application, ensuring scalability and reliability.
 - Security Measures: Technologies like OAuth or JWT can be used for authentication and authorization, protecting user data and ensuring secure access to the application.
+
