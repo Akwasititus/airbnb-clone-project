@@ -91,3 +91,28 @@ Entity Relationships
 - A Property can have multiple Bookings (one-to-many).
 - A Review belongs to one User and one Property (many-to-one).
 - A Payment belongs to one Booking (many-to-one).
+
+
+
+
+
+Security Measures
+
+The AirBnB clone project will implement the following key security measures to ensure the protection of user data, secure payments, and prevent unauthorized access.
+
+Security Measures
+- Authentication: Implement authentication using JSON Web Tokens (JWT) or OAuth to verify user identities and ensure only authorized users can access protected resources.
+- Authorization: Use role-based access control (RBAC) to restrict access to sensitive data and features based on user roles (e.g., admin, host, guest).
+- Rate Limiting: Implement rate limiting to prevent brute-force attacks and denial-of-service (DoS) attacks on the API.
+- Data Encryption: Use HTTPS (SSL/TLS) to encrypt data in transit and protect user data from eavesdropping.
+- Password Hashing: Use a secure password hashing algorithm (e.g., bcrypt, Argon2) to store user passwords securely.
+- Input Validation: Validate user input to prevent SQL injection and cross-site scripting (XSS) attacks.
+- Payment Security: Use a secure payment gateway (e.g., Stripe, PayPal) to process payments and protect sensitive payment information.
+
+Why Security is Crucial
+- Protecting User Data: User data, such as personal information and payment details, must be protected from unauthorized access to prevent identity theft and financial loss.
+- Securing Payments: Payment security is crucial to prevent financial loss and maintain user trust. Secure payment gateways and encryption ensure that payment information is protected.
+- Preventing Unauthorized Access: Authentication and authorization ensure that only authorized users can access protected resources, preventing unauthorized access to sensitive data and features.
+- Preventing Attacks: Rate limiting, input validation, and data encryption help prevent attacks such as brute-force attacks, SQL injection, and XSS attacks, which can compromise user data and system integrity.
+
+By implementing these security measures, the AirBnB clone project can ensure the protection of user data, secure payments, and prevent unauthorized access, providing a safe and trustworthy experience for users.
